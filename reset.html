@@ -1,0 +1,33 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+		<title>Codespro SMSArena</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+    <link rel="stylesheet" href="./css/reset.css">
+  </head>
+<body>
+    <form >
+        <h2>Reset password</h2>
+        <label for="email">Email</label>
+        <input type="text" placeholder="enter your email ID" name="email" required />
+        <button>Reset password</button>
+      </form>
+      <script>
+        const form = document.querySelector('form');
+      
+        form.addEventListener('submit', async (e) => {
+          e.preventDefault();
+      
+          // get values
+          const email = form.email.value;
+           console.log(email)
+          if (email == '') {
+            alert('please enter a valid email')
+          } else {
+            console.log('sucesss')
+          }
+        });
+      </script>

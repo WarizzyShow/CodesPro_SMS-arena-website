@@ -1,0 +1,239 @@
+.imaglogo {
+    height: 40px;
+    margin-left: 3em;
+}
+html{
+    scroll-behavior: smooth;
+}
+#mtn {
+  height: 30px;
+  width: 30px;
+}
+#font {
+    color:blue;
+}
+.bord {
+    border-radius: 10px;
+}
+#About
+    {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+#About p
+    {
+        padding-top: 10px;
+    }
+#About span
+    {
+        float: left;
+    }
+#About .fa
+    {
+        background: blue;
+        border-radius: 50%;
+        color: #fff;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        margin-right: 20px;
+    }
+
+    #Career
+    {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+#Career p
+    {
+        padding-top: 10px;
+    }
+#Career span
+    {
+        float: left;
+    }
+    .blue {
+        margin-left: 10em
+        ;
+    }
+    .login {
+        float: right;
+        margin: 10px;
+        color: blue;
+    }
+#Career .fa
+    {
+        background: blue;
+        border-radius: 50%;
+        color: #fff;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        margin-right: 20px;
+    }
+
+    #Coverage
+    {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+#Coverage p
+    {
+        padding-top: 10px;
+    }
+#Coverage span
+    {
+        float: left;
+    }
+#Coverage .fa
+    {
+        background: blue;
+        border-radius: 50%;
+        color: #fff;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        margin-right: 20px;
+    }
+    .imt {
+        width: 100%;
+        height: 30%;
+        border-radius: 15px;
+        background-color: transparent;
+    }
+    .swp {
+        width: 60%;
+        overflow: hidden;
+        border-radius: 12px;
+      }
+      
+    #home {
+        width: 100%;
+        height: 500px;
+    }
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: none;
+      }
+
+      .centered h1 {
+        margin-left:  554px;
+        color: blue;
+        font-size:50px;
+        font-family: serif;
+        font-weight: bolder;
+      }
+      .scrolltop {
+        font-size: larger;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color:blue ;
+        color: white;
+        text-align: center;
+        animation: zoom 1s ease;
+
+
+      }
+      .scrolltop:hover{
+        animation: zoom 1s ease infinite;
+      }
+      .scrolltop p a{
+        text-decoration: none;
+        color: #fff;
+      }
+      @keyframes zoom {
+        20%{
+           transform: scale(1.2);
+            background: rgba(0, 0, 255, 0.583);
+        }
+        40%{
+            transform: scale(1);
+
+        }
+        60%{
+            transform: scale(1.3);
+            background: rgba(0, 0, 100, 0.831);
+        }
+        80%{
+            transform: scale(1);
+        }
+      }
+      @media screen and ( max-width: 991px ) {
+        .swp {
+            width: 90%;
+            border-radius: 10px;
+        }
+      .centered h1 {
+        margin-left: 143px;
+        color: blue;
+        font-size: 20px;
+        margin-bottom: 298px;
+        font-family: serif;
+        font-weight: bolder;
+      }
+      .imaglogo {
+        height: 25px;
+        margin-left: 0em;
+        margin-bottom: -72px; 
+      }
+      .h {
+        margin-right: 150px;
+      }
+      .swiper-slide {
+        height: 50%;
+      }
+
+     #About {
+       padding-top: 30px;
+       padding-bottom: 30px;
+    }
+   
+    .blue {
+      margin-left: 20%;
+    }
+    .red {
+        margin-left: 28%;
+}
+    #home {
+        width: 100%;
+        padding-top: 30px;
+        height: 300px;
+    }
+    /* .about {
+        text-align: center;
+        display: inline-block;
+    } */
+    }
+    @media screen and ( max-width: 767px ) {
+        .navbar-default .nav li a {
+            height: auto;
+            line-height: 2em;
+        }
+        #feature, #pricing, #download {
+            padding-top: 20px;
+            padding-bottom: 40px;
+        }
+        #contact .overlay {
+            padding-top: 40px;
+        }
+    }
+    /* start media 360 */
+    @media screen and ( max-width: 360px ){
+        .pricing
+            {
+                padding-bottom: 40px;
+            }
+    }
